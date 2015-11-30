@@ -1,0 +1,37 @@
+{
+  "name": "karma-coffee-webpack",
+  "version": "1.0.0",
+  "description": "Testing code with karma, coffeescript and webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start --single-run --browsers PhantomJS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "undefined"
+  },
+  "keywords": [
+    "karma",
+    "coffeescript",
+    "testing"
+  ],
+  "author": "Morten Lindhardt <r3fuze@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.10.0",
+    "karma": "^0.13.15",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-coffee-preprocessor": "^0.3.0",
+    "karma-firefox-launcher": "^0.1.7",
+    "karma-mocha": "^0.2.1",
+    "karma-mocha-reporter": "^1.1.3",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.3.4",
+    "phantomjs": "^1.9.19",
+    "webpack": "^1.12.9"
+  }
+}

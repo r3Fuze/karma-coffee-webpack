@@ -1,0 +1,4 @@
+- gulpfile
+    - Task for watching changes and re-running tests
+    - Task for running tests once (for CI)
+    - Proper task names
