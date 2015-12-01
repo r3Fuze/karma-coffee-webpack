@@ -12,3 +12,7 @@ describe ".add", ->
 describe "util", ->
     it "should return a string", ->
         expect(util.stuff).to.equal "Boo!"
+
+describe "My package", ->
+    it "should do the cool stuff it's supposed to do", ->
+        expect("cool").to.not.equal "lame"

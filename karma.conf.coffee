@@ -15,8 +15,8 @@ module.exports = (config) ->
         # list of files / patterns to load in the browser
         files: [
             # "src/*.coffee"
-            # { pattern: "spec/**/*.spec.coffee", included: true }
-            "spec/**/*.spec.coffee"
+            { pattern: "spec/**/*.spec.coffee", watched: false, included: true, served: true }
+            # "spec/**/*.spec.coffee"
         ]
 
         # list of files to exclude
