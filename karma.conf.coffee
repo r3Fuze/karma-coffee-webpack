@@ -25,7 +25,7 @@ module.exports = (config) ->
         # preprocess matching files before serving them to the browser
         # available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
         preprocessors:
-            "**/*.coffee": ["webpack"]
+            "spec/**/*.spec.coffee": ["webpack"]
 
         plugins: [
             require "karma-mocha"
@@ -43,7 +43,7 @@ module.exports = (config) ->
                 ]
 
         webpackMiddleware:
-            quiet: true
+            noInfo: true
             stats:
                 colors: true
 
@@ -71,7 +71,7 @@ module.exports = (config) ->
         logLevel: config.LOG_WARN
 
         # enable / disable watching file and executing tests whenever any file changes
-        autoWatch: false
+        autoWatch: true
 
         # start these browsers
         # available browser launchers: https://npmjs.org/browse/keyword/karma-launcher

@@ -1,4 +1,5 @@
 add = require "../src/example.coffee"
+util = require "../src/util.coffee"
 
 describe ".add", ->
     it "should add two numbers and return the result", ->
@@ -7,3 +8,7 @@ describe ".add", ->
 
     it "should do more cool stuff", ->
         expect("test".indexOf "t").to.not.equal -1
+
+describe "util", ->
+    it "should return a string", ->
+        expect(util.stuff).to.equal "Boo!"
